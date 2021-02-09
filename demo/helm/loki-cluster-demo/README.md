@@ -5,7 +5,7 @@
 Deploy Loki Cluster, only for demo.
 
 ```
-helm template --name stable --namespace <your_namespace> . - | kubectl apply -f -
+helm template  stable --namespace default  .  | kubectl apply -f -
 ```
 
 ## Values
